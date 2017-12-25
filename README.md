@@ -4,12 +4,12 @@
 ### 2.Open command prompt or any shell inside 'AnkitTask1' folder
 ### 3.For Windows Command Prompt, type: gradlew clean
 	    For Windows PowerShell, type: .\gradlew clean
-### 4. At successful build, type 'react-native run-android' for android
+### 4.At successful build, type 'react-native run-android' for android
 		For ios 'react-native run-ios'(Not tested)
 		Make sure your emulator is running.
 
 ## Disclamer
-### The app was only tested on Android's Marshmallow build gradle 23 (Nexus). Other platforms, behavior maybe unexpected.
+### The app was only tested on Android's Marshmallow build gradle 23 (Nexus). On other platforms, behavior maybe unexpected.
 
 ## Troubleshooting
 
