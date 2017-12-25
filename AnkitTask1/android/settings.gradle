@@ -1,0 +1,3 @@
+rootProject.name = 'AnkitTask1'
+
+include ':app'
