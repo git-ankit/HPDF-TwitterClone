@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Image } from 'react-native';
-import { connectStyle, Container, StyleProvider, Spinner, Header, Content, Card, CardItem, Thumbnail, Text, Button, Icon, Left, Body, Right, Footer, FooterTab, Badge, Item, Input, Drawer, Tab, Tabs, TabHeading } from 'native-base';
+import { connectStyle, Container, StyleProvider, Spinner, Header, Content, Card, CardItem, Thumbnail, Text, Button, Icon, Left, Body, Right, Footer, FooterTab, Badge, Item, Input, Drawer, Tab, Tabs, TabHeading, Fab } from 'native-base';
 import SideBar from './src/index';
 import Tab1 from './tabOne';
 import Tab2 from './tabTwo';
@@ -54,7 +54,14 @@ export default class CardShowcaseExample extends Component {
               <Tab3 />
             </Tab>
           </Tabs>
-
+          <View style={{ flex: 0 }}>
+	          <Fab
+	            style={{ backgroundColor: '#0084b4' }}
+	            position="bottomRight">
+	            <Icon name="ios-leaf-outline" />
+	            
+	          </Fab>
+        </View>
         </Container>
       </StyleProvider> 
       </Drawer>
